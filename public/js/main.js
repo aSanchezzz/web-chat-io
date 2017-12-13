@@ -1,6 +1,7 @@
 //change to http://localhost:3000 or to specific local network address to test.
-var socket = io("http://192.168.1.64:3000");
+var socket = io("http://localhost:3000");
 
+//Check for connections and set title accordingly
 socket.on("disconnect", function() {
 	setTitle("Disconnected");
 });
