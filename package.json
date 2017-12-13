@@ -1,0 +1,23 @@
+{
+  "name": "sio-server",
+  "version": "1.0.0",
+  "description": "A sample socket io server",
+  "main": "sio-server.js",
+  "scripts": {
+    "start": "open http://localhost:3000 & node sio-server.js"
+  },
+  "keywords": [
+    "Socket",
+    "IO",
+    "Simple",
+    "Sample"
+  ],
+  "author": "Alexander Sanchez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "nodemon": "^1.12.5",
+    "socket.io": "^1.3.7",
+    "socket.io-client": "^1.3.7"
+  }
+}
